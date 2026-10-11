@@ -1,0 +1,5 @@
+# .htaccess
+RewriteEngine On
+
+RewriteRule ^tr/ekibimiz\.html$ /tr [R=301,L]
+RewriteRule ^en/ekibimiz\.html$ /en [R=301,L]
